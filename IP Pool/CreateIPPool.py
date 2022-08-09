@@ -94,7 +94,6 @@ if __name__ == '__main__':
         else:
             if vdom ==None:
                 vdom ="root"
-            #print (Fore.GREEN + "Create IP Pool %s" %ip_pool_name ," on host %s" %fgtip,"is successfully"+ Style.RESET_ALL)
             print (Fore.GREEN + "Create IP Pool %s on host %s on VDOM %s is successfully" %(ip_pool_name, fgtip, vdom) + Style.RESET_ALL)
             
         
